@@ -1,9 +1,9 @@
 name: Update Mod Versions
 
-on:
-  schedule:
-    - cron: '0 * * * *'  # Run every hour
-  workflow_dispatch:     # Allow manual triggers
+#on:
+#  schedule:
+#    - cron: '0 * * * *'  # Run every hour
+#  workflow_dispatch:     # Allow manual triggers
 
 jobs:
   update-versions:
